@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Piedra&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply antialiased overflow-x-hidden;
+	background-color: beige;
+}
+
