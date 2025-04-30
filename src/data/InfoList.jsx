@@ -1,4 +1,4 @@
-import React from 'react'; // Add this line
+import React from 'react';
 import { FaCode, FaGraduationCap, FaProjectDiagram, FaReadme } from 'react-icons/fa';
 import { TbWorldWww } from "react-icons/tb";
 import { GiTeacher } from "react-icons/gi";
@@ -8,6 +8,7 @@ import Vercel from '../assets/icons/vercel-icon.svg?react';
 import Figma from '../assets/icons/figma.svg?react';
 import Git from '../assets/icons/git-icon.svg?react';
 import bgImage from '../assets/images/bgImage.jpg';
+import bgImagee from '../assets/images/bgImagee.png';
 import ticket from '../assets/images/ticket.png';
 import Viola from '../assets/images/ai.png';
 
@@ -44,18 +45,18 @@ export const toolsData = [
 export const serviceData = [
   {
     icon: <TbWorldWww /> , 
-    title: 'Web design', 
-    description: 'Web development is the process of building, programming...'
+    title: 'Web Developer', 
+    description: 'I build responsive and user-friendly websites using modern technologies like HTML, CSS (TailwindCSS), JavaScript, and React.'
   },
   {
     icon: <FaReadme /> , 
     title: 'Technical Writer', 
-    description: 'Web development is the process of building, programming...'
+    description: 'I create clear, engaging, and beginner-friendly documentation and articles on web development topics.'
   },
   {
     icon: <GiTeacher /> , 
     title: 'Instructor', 
-    description: 'Web development is the process of building, programming...'
+    description: 'I teach web development concepts in a simple and practical way, guiding students through hands-on projects and real-world scenarios.'
   },
 ]
 
@@ -81,7 +82,7 @@ export const workData = [
   {
     title: 'Portfolio',
     description: 'Web Design',
-    bgImage: bgImage,
-    projectLink: 'https://ugboizu.portfolio.vercel.app/',
+    bgImage: bgImagee,
+    projectLink: 'https://portfolio-umezurike-ugboizu-nmachis-projects.vercel.app/',
   },
 ]

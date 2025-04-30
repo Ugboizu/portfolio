@@ -31,7 +31,7 @@ const Services = () => {
             <div className='w-10 text-3xl text-purple-800'>{service.icon}</div>
             <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{service.title}</h3>
             <p className='text-sm text-gray-600 leading-5 dark:text-white/80'>{service.description} </p>
-            <a href="" className='flex items-center gap-2 text-sm mt-5'>Read more <ArrowRight size={16} className='w-4'/></a>
+            {/* <a href="" className='flex items-center gap-2 text-sm mt-5'>Read more <ArrowRight size={16} className='w-4'/></a> */}
           </motion.div>
         ))
           

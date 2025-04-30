@@ -51,12 +51,12 @@ const Portfolio = () => {
         ))}
       </motion.div>
 
-      <motion.a 
+      {/* <motion.a 
       initial={{opacity: 0}} whileInView={{opacity: 1}} transition={{duration: 0.5, delay: 1.1}}
       href="" 
       className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:border dark:border-white dark:text-white dark:hover:bg-darkHover'>
         Show more <FaArrowRight className='w-4 '/>
-      </motion.a>
+      </motion.a> */}
     </motion.div>
   )
 }
